@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://skunkworks.ignitesol.com:8000/books'
+const BASE_URL = 'https://skunkworks.ignitesol.com:8000/books'
 const BASE = new URL(BASE_URL)
 
 export const normalizeNextUrl = (pageUrl) => {
