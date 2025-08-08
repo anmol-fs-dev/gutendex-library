@@ -1,0 +1,10 @@
+.search {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0 1rem;
+}

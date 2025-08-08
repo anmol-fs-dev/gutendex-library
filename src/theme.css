@@ -1,0 +1,47 @@
+:root {
+  --bg: #0b1020;
+  --fg: #f2f4f8;
+  --muted: #a9b0c0;
+  --surface: #11182f;
+  --surface-2: #1a2240;
+  --border: #2a3355;
+  --primary: #6aa6ff;
+  --accent: #8be9fd;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f9fafb;
+    --fg: #0b1020;
+    --muted: #4b5563;
+    --surface: #ffffff;
+    --surface-2: #f3f4f6;
+    --border: #e5e7eb;
+    --primary: #2563eb;
+    --accent: #06b6d4;
+  }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+button.primary {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input.input {
+  background: var(--surface);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
